@@ -1,0 +1,23 @@
+{
+	"geode": "5.6.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "lowtls.more-fps",
+	"name": "More fps",
+	"version": "v1.0.0",
+	"developer": "lowtls",
+	"description": "Choose your Geometry Dash FPS: 60, 90, 120, 360, 700, 1000, 1500, 2026, 5000 or 100000.",
+	"settings": {
+		"fps": {
+			"type": "string",
+			"name": "Target FPS",
+			"description": "Very high values can make the game physics unstable.",
+			"default": "240",
+			"one-of": ["60", "90", "120", "360", "700", "1000", "1500", "2026", "5000", "100000"]
+		}
+	}
+}
