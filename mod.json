@@ -16,7 +16,7 @@
 			"type": "string",
 			"name": "Target FPS",
 			"description": "Very high values can make the game physics unstable.",
-			"default": "240",
+			"default": "120",
 			"one-of": ["60", "90", "120", "360", "700", "1000", "1500", "2026", "5000", "100000"]
 		}
 	}
